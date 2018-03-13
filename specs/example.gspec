@@ -1,0 +1,41 @@
+# Rules
+
+@rule should have black background
+     css background-color is "rgb(0, 0, 0)"
+
+# Declaring objects
+
+@objects
+    header         id    header
+    footer         id    footer
+    side-panel     id    side-panel
+    menu-item-*    css    #menu li a
+
+# Declaring sections
+
+= Header =
+    @on mobile
+        header:
+            height 100px
+
+= Menu =
+    global:
+        count any menu-item-* is 4
+    
+    @for [1 - 4] as index
+        menu-item-${index}:
+            text is "Item ${index}"
+
+    @forEach [menu-item-*] as itemName, prev as previousItem
+        ${itemName}:
+            aligned horizontally all ${previousItem}
+
+= Content =
+    footer:
+        | should have black background
+
+= Side panel =
+    side-panel:
+        width 250 to 300 px
+
+                

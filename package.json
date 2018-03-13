@@ -1,0 +1,23 @@
+{
+  "name": "aftertest-bcn-galen-js",
+  "description": "Galen JS examples for AfterTest BCN",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando-martin/aftertest-bcn-galen-js.git"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "author": "Fernando Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernando-martin/aftertest-bcn-galen-js/issues"
+  },
+  "homepage": "https://github.com/fernando-martin/aftertest-bcn-galen-js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "del": "^2.0.0"
+  }
+}
