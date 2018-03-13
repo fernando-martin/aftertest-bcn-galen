@@ -5,20 +5,21 @@ This is the source code for my talk [Am I responsive? Test me!](https://www.meet
 The slides of the talk are available at [slideshare]().
 
 ## Requirements
-* Galen 2.3.6, <a href="http://galenframework.com/download/" target="_blank">download</a>
+* Galen 2.3.6
 * Node 6.11.3
 * Npm 3.10.10
 
 ## Init
 * Download [Geckodriver](https://github.com/mozilla/geckodriver) binary to `lib` dir.
-* Install gulp
+* Install gulp.
 ```
 npm install -g gulp
 ```
-* Install dependencies
+* Install dependencies.
 ```
 npm install
 ```
+
 ## Run tests
 
 ```
