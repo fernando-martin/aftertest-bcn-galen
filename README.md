@@ -2,7 +2,7 @@
 
 This is the source code for my talk [Am I responsive? Test me!](https://www.meetup.com/es-ES/BarcelonaTesters/events/248186328) given at "Software Testers and QA Experts of Barcelona" meetup.
 
-The slides of the talk are available at [slideshare]().
+The slides of the talk are available at [slideshare](https://www.slideshare.net/FernandoMartnGil/aftertest-barcelona-am-i-responsive-test-me-galen-framework).
 
 ## Requirements
 * Galen 2.3.6
