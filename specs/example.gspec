@@ -30,7 +30,7 @@
         ${itemName}:
             aligned horizontally all ${previousItem}
 
-= Content =
+= Footer =
     footer:
         | should have black background
 
